@@ -1,0 +1,9 @@
+psql:multiversion_cases2.sql:4: ERROR:  SQL审核[dml_no_where]: DELETE 语句缺少 WHERE 条件，清空表请使用 TRUNCATE
+psql:multiversion_cases2.sql:5: ERROR:  SQL审核[dml_no_where]: UPDATE 语句缺少 WHERE 条件，将影响全部行
+psql:multiversion_cases2.sql:6: ERROR:  SQL审核[dml_count_star]: 统计行数建议使用 count(*)
+psql:multiversion_cases2.sql:7: ERROR:  SQL审核[dml_left_fuzzy]: 查询使用了左模糊匹配（LIKE 以 % 开头），建议避免
+psql:multiversion_cases2.sql:8: NOTICE:  SQL审核[dml_in_to_exists]: 查询使用了 IN (子查询)，建议改用 EXISTS 子句
+psql:multiversion_cases2.sql:9: NOTICE:  SQL审核[dml_batch_copy]: INSERT 语句一次写入 2 行数据，批量导入建议使用 COPY
+psql:multiversion_cases2.sql:10: WARNING:  SQL审核[cmd_reindex]: REINDEX 建议使用 CONCURRENTLY 以避免长时间阻塞 (目标: se_v_dml)
+psql:multiversion_cases2.sql:11: WARNING:  SQL审核[cmd_reindex]: REINDEX 操作回显 (目标: se_v_dml_pkey, 使用 CONCURRENTLY)
+psql:multiversion_cases2.sql:12: WARNING:  SQL审核[obj_advanced]: STATISTICS 定义/变更需由资深 DBA 实施 (对象: se_v_stats)

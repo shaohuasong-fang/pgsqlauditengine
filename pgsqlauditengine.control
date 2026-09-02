@@ -1,0 +1,6 @@
+# pgsqlauditengine extension
+comment = 'PostgreSQL SQL Audit Tools (DDL/DML/DCL/TCL and programmable objects)'
+default_version = '1.0'
+module_pathname = '$libdir/pgsqlauditengine'
+relocatable = true
+superuser = true

@@ -1,0 +1,26 @@
+\set VERBOSITY terse
+DROP TABLE IF EXISTS se_v_test;
+DROP TABLE IF EXISTS se_v_ctas;
+DROP TABLE IF EXISTS se_v_selinto;
+CREATE TABLE se_v_test(id int PRIMARY KEY, ref_id int REFERENCES se_v_test(id), name text UNIQUE);
+CREATE TABLE se_v_ctas AS SELECT 1 AS a;
+SELECT * INTO se_v_selinto FROM se_v_test;
+DELETE FROM se_v_test;
+UPDATE se_v_test SET name = 'x';
+SELECT count(name) FROM se_v_test;
+SELECT * FROM se_v_test WHERE name LIKE '%abc';
+SELECT * FROM se_v_test WHERE id IN (SELECT id FROM se_v_test);
+INSERT INTO se_v_test VALUES (1, NULL, 'a'), (2, NULL, 'b');
+VACUUM se_v_test;
+VACUUM FULL se_v_test;
+ANALYZE se_v_test;
+REINDEX TABLE se_v_test;
+CHECKPOINT;
+LOCK TABLE se_v_test;
+EXPLAIN ANALYZE SELECT * FROM se_v_test;
+DISCARD ALL;
+CREATE TABLE se_v_bad1(abc int);
+CREATE TABLE "SeVUpper"(abc int);
+CREATE TABLE "1st_table"(abc int);
+CREATE TABLE "select"(abc int);
+CREATE TABLE se_v_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz(abc int);

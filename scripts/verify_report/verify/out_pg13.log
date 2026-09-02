@@ -1,0 +1,37 @@
+psql:multiversion_cases.sql:2: NOTICE:  table "se_v_test" does not exist, skipping
+DROP TABLE
+psql:multiversion_cases.sql:3: NOTICE:  table "se_v_ctas" does not exist, skipping
+DROP TABLE
+psql:multiversion_cases.sql:4: NOTICE:  table "se_v_selinto" does not exist, skipping
+DROP TABLE
+psql:multiversion_cases.sql:5: ERROR:  SQL审核[table_no_foreign_key]: 表 "se_v_test" 禁止使用外键，数据完整性应由代码层实现
+psql:multiversion_cases.sql:6: WARNING:  SQL审核[obj_ctas]: 评估是否确需创建实体表(CTAS/SELECT INTO) (新表: se_v_ctas)
+SELECT 1
+psql:multiversion_cases.sql:7: ERROR:  relation "se_v_test" does not exist at character 33
+psql:multiversion_cases.sql:8: ERROR:  relation "se_v_test" does not exist at character 13
+psql:multiversion_cases.sql:9: ERROR:  relation "se_v_test" does not exist at character 8
+psql:multiversion_cases.sql:10: ERROR:  relation "se_v_test" does not exist at character 25
+psql:multiversion_cases.sql:11: ERROR:  relation "se_v_test" does not exist at character 15
+psql:multiversion_cases.sql:12: ERROR:  relation "se_v_test" does not exist at character 15
+psql:multiversion_cases.sql:13: ERROR:  relation "se_v_test" does not exist at character 13
+psql:multiversion_cases.sql:14: WARNING:  SQL审核[cmd_vacuum]: VACUUM 操作回显 (目标表: se_v_test)
+psql:multiversion_cases.sql:14: ERROR:  relation "se_v_test" does not exist
+psql:multiversion_cases.sql:15: WARNING:  SQL审核[cmd_vacuum]: VACUUM FULL 获取排他锁并重写表, 生产环境需谨慎 (目标表: se_v_test)
+psql:multiversion_cases.sql:15: ERROR:  relation "se_v_test" does not exist
+psql:multiversion_cases.sql:16: NOTICE:  SQL审核[cmd_analyze]: ANALYZE 统计信息采集应在业务低峰期进行 (目标表: se_v_test)
+psql:multiversion_cases.sql:16: ERROR:  relation "se_v_test" does not exist
+psql:multiversion_cases.sql:17: WARNING:  SQL审核[cmd_reindex]: REINDEX 建议使用 CONCURRENTLY 以避免长时间阻塞 (目标: se_v_test)
+psql:multiversion_cases.sql:17: ERROR:  relation "se_v_test" does not exist
+psql:multiversion_cases.sql:18: NOTICE:  SQL审核[cmd_checkpoint]: 手动 CHECKPOINT 仅建议排障场景使用
+CHECKPOINT
+psql:multiversion_cases.sql:19: WARNING:  SQL审核[cmd_lock]: LOCK TABLE 需注意锁模式与持锁时长 (表: se_v_test, 模式: 8, nowait: false)
+psql:multiversion_cases.sql:19: ERROR:  LOCK TABLE can only be used in transaction blocks
+psql:multiversion_cases.sql:20: ERROR:  relation "se_v_test" does not exist at character 31
+psql:multiversion_cases.sql:21: NOTICE:  SQL审核[cmd_discard]: DISCARD ALL 将重置会话状态 (临时表/准备语句/通知监听等)
+DISCARD ALL
+psql:multiversion_cases.sql:22: ERROR:  SQL审核[table_pk_required]: 表 "se_v_bad1" 必须定义主键
+psql:multiversion_cases.sql:23: ERROR:  SQL审核[name_charset]: 表名称 "SeVUpper" 只能由小写字母(a-z)、数字(0-9)、下划线(_)构成
+psql:multiversion_cases.sql:24: ERROR:  SQL审核[name_start]: 表名称 "1st_table" 必须以字母开头，禁止以数字或下划线开头
+psql:multiversion_cases.sql:25: ERROR:  SQL审核[name_reserved]: 表名称 "select" 是PostgreSQL保留字，禁止使用
+psql:multiversion_cases.sql:26: NOTICE:  identifier "se_v_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz" will be truncated to "se_v_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_"
+psql:multiversion_cases.sql:26: ERROR:  SQL审核[name_len]: 表名称 "se_v_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_" 超过32个字符

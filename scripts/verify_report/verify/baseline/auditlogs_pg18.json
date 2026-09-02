@@ -1,0 +1,1 @@
+{"code":200,"error_code":null,"error_message":null,"data":[{"ts":841356904296559,"stmt_type":"SELECT","object":"","rule":"dml","level":"NOTICE"},{"ts":841356904305528,"stmt_type":"SELECT","object":"","rule":"dml","level":"NOTICE"},{"ts":841356918189452,"stmt_type":"VIOLATION","object":"","rule":"dml_left_fuzzy","level":"ERROR"}]}

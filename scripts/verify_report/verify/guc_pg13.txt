@@ -1,0 +1,5 @@
+PGSAUDAUDITENGINE.api_listen|127.0.0.1|string|postmaster
+PGSAUDAUDITENGINE.api_port|8900|integer|postmaster
+PGSAUDAUDITENGINE.api_token||string|postmaster
+PGSAUDAUDITENGINE.check_dml|on|bool|superuser
+PGSAUDAUDITENGINE.enabled|off|bool|superuser

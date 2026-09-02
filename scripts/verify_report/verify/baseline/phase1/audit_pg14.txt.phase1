@@ -1,0 +1,314 @@
+psql:/tmp/reg_pg14/seg_p0.sql:10: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_base)
+psql:/tmp/reg_pg14/seg_p0.sql:11: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_dml)
+psql:/tmp/reg_pg14/seg_p0.sql:12: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_manycols)
+psql:/tmp/reg_pg14/seg_p0.sql:13: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_red)
+psql:/tmp/reg_pg14/seg_p0.sql:14: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_sel)
+psql:/tmp/reg_pg14/seg_p0.sql:15: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_pkbad)
+psql:/tmp/reg_pg14/seg_p0.sql:16: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ukbad)
+psql:/tmp/reg_pg14/seg_p0.sql:17: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ckbad)
+psql:/tmp/reg_pg14/seg_p0.sql:18: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_vc)
+psql:/tmp/reg_pg14/seg_p0.sql:19: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_num)
+psql:/tmp/reg_pg14/seg_p0.sql:20: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_dt)
+psql:/tmp/reg_pg14/seg_p0.sql:21: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_js)
+psql:/tmp/reg_pg14/seg_p0.sql:22: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ms)
+psql:/tmp/reg_pg14/seg_p0.sql:23: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_nopk)
+psql:/tmp/reg_pg14/seg_p0.sql:24: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_pkname)
+psql:/tmp/reg_pg14/seg_p0.sql:25: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_pktype)
+psql:/tmp/reg_pg14/seg_p0.sql:26: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_null)
+psql:/tmp/reg_pg14/seg_p0.sql:27: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_fk)
+psql:/tmp/reg_pg14/seg_p0.sql:28: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_resv)
+psql:/tmp/reg_pg14/seg_p0.sql:29: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_comment)
+psql:/tmp/reg_pg14/seg_p0.sql:30: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_dup)
+psql:/tmp/reg_pg14/seg_p0.sql:31: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ctas)
+psql:/tmp/reg_pg14/seg_p0.sql:32: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_txndrop)
+psql:/tmp/reg_pg14/seg_p0.sql:33: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: bak_se_t_base)
+psql:/tmp/reg_pg14/seg_p0.sql:34: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_tmpbad)
+psql:/tmp/reg_pg14/seg_p0.sql:35: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: tmp_se_t_arr)
+psql:/tmp/reg_pg14/seg_p0.sql:36: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: SeTUpper)
+psql:/tmp/reg_pg14/seg_p0.sql:37: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: 1st_table)
+psql:/tmp/reg_pg14/seg_p0.sql:38: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: select)
+psql:/tmp/reg_pg14/seg_p0.sql:39: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_)
+psql:/tmp/reg_pg14/seg_p0.sql:40: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_base)
+psql:/tmp/reg_pg14/seg_p0.sql:41: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_star)
+psql:/tmp/reg_pg14/seg_p0.sql:42: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_order)
+psql:/tmp/reg_pg14/seg_p0.sql:43: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_sub)
+psql:/tmp/reg_pg14/seg_p0.sql:44: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_nest)
+psql:/tmp/reg_pg14/seg_p0.sql:45: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: se_v_bad)
+psql:/tmp/reg_pg14/seg_p0.sql:46: ERROR:  SQL审核[obj_matview]: 物化视图需评估数据新鲜度与刷新策略 (物化视图: vw_se_mv)
+psql:/tmp/reg_pg14/seg_p0.sql:47: ERROR:  SQL审核[obj_matview]: 物化视图需评估数据新鲜度与刷新策略 (物化视图: vw_se_mv2)
+psql:/tmp/reg_pg14/seg_p0.sql:48: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_se_base)
+psql:/tmp/reg_pg14/seg_p0.sql:49: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_noc)
+psql:/tmp/reg_pg14/seg_p0.sql:50: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_hash)
+psql:/tmp/reg_pg14/seg_p0.sql:51: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_many)
+psql:/tmp/reg_pg14/seg_p0.sql:52: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc1)
+psql:/tmp/reg_pg14/seg_p0.sql:53: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc2)
+psql:/tmp/reg_pg14/seg_p0.sql:54: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc3)
+psql:/tmp/reg_pg14/seg_p0.sql:55: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc4)
+psql:/tmp/reg_pg14/seg_p0.sql:56: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc5)
+psql:/tmp/reg_pg14/seg_p0.sql:57: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_sel)
+psql:/tmp/reg_pg14/seg_p0.sql:58: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_red1)
+psql:/tmp/reg_pg14/seg_p0.sql:59: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_red2)
+psql:/tmp/reg_pg14/seg_p0.sql:60: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: se_i_bad)
+psql:/tmp/reg_pg14/seg_p0.sql:61: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:62: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:63: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:64: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:65: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:66: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 模式, 名称: se_x_schema)
+psql:/tmp/reg_pg14/seg_p0.sql:71: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: se_x_stats)
+psql:/tmp/reg_pg14/seg_p0.sql:75: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 模式, 名称: se_x_p15)
+psql:/tmp/reg_pg14/seg_p0.sql:76: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 序列, 名称: se_x_p15_seq)
+psql:/tmp/reg_pg14/seg_p0.sql:77: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 域, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:79: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:80: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:81: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p0.sql:94: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_base_id_seq)
+psql:/tmp/reg_pg14/seg_p0.sql:94: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_base_id_seq)
+psql:/tmp/reg_pg14/seg_p0.sql:107: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_dml_id_seq)
+psql:/tmp/reg_pg14/seg_p0.sql:107: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_dml_id_seq)
+psql:/tmp/reg_pg14/seg_p0.sql:113: NOTICE:  SQL审核[cmd_show]: 会话参数查询(SHOW)识别回显 (参数: max_prepared_transactions)
+psql:/tmp/reg_pg14/seg_cases.sql:7: ERROR:  SQL审核[name_charset]: 表名称 "SeTUpper" 只能由小写字母(a-z)、数字(0-9)、下划线(_)构成
+psql:/tmp/reg_pg14/seg_cases.sql:12: ERROR:  SQL审核[name_start]: 表名称 "1st_table" 必须以字母开头，禁止以数字或下划线开头
+psql:/tmp/reg_pg14/seg_cases.sql:17: ERROR:  SQL审核[name_len]: 表名称 "se_t_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_" 超过32个字符
+psql:/tmp/reg_pg14/seg_cases.sql:22: ERROR:  SQL审核[name_reserved]: 表名称 "select" 是PostgreSQL保留字，禁止使用
+psql:/tmp/reg_pg14/seg_cases.sql:27: ERROR:  SQL审核[name_pk_prefix]: 主键约束名称 "id_pk" 必须以 "pk_" 为前缀
+psql:/tmp/reg_pg14/seg_cases.sql:32: ERROR:  SQL审核[name_uk_prefix]: 唯一约束名称 "id_uq" 必须以 "uk_" 为前缀
+psql:/tmp/reg_pg14/seg_cases.sql:37: ERROR:  SQL审核[name_ck_prefix]: 检查约束名称 "id_chk" 必须以 "ck_" 为前缀
+psql:/tmp/reg_pg14/seg_cases.sql:42: ERROR:  SQL审核[name_idx_prefix]: 索引名称 "se_i_bad" 必须以 "idx_" 为前缀
+psql:/tmp/reg_pg14/seg_cases.sql:47: ERROR:  SQL审核[name_vw_prefix]: 视图名称 "se_v_bad" 必须以 "vw_" 为前缀
+psql:/tmp/reg_pg14/seg_cases.sql:52: ERROR:  SQL审核[name_tmp_prefix]: 临时表名 "se_t_tmpbad" 必须以 tmp 为前缀并以日期为后缀
+psql:/tmp/reg_pg14/seg_cases.sql:58: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: bak_se_t_base_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:58: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: bak_se_t_base_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:64: ERROR:  SQL审核[name_db_name]: 数据库名 "se_db_test" 建议以应用系统缩写为前缀、环境类型为后缀
+psql:/tmp/reg_pg14/seg_cases.sql:74: ERROR:  SQL审核[type_varchar]: 列 "code" 建议使用 varchar/text 替代定长 char
+psql:/tmp/reg_pg14/seg_cases.sql:80: ERROR:  SQL审核[type_numeric]: 列 "amount" 若用于货币或精确计算，建议使用 numeric
+psql:/tmp/reg_pg14/seg_cases.sql:87: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_dt_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:87: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_dt_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:93: ERROR:  SQL审核[type_jsonb]: 列 "payload" 建议使用 jsonb 类型替代 json
+psql:/tmp/reg_pg14/seg_cases.sql:98: ERROR:  SQL审核[type_min_size]: 列 "big_col" 建议使用 int 而非 bigint，除非确需大范围数值
+psql:/tmp/reg_pg14/seg_cases.sql:107: ERROR:  SQL审核[table_pk_required]: 表 "se_t_nopk" 必须定义主键
+psql:/tmp/reg_pg14/seg_cases.sql:112: ERROR:  SQL审核[table_pk_name_id]: 表 "se_t_pkname" 的主键列名必须为 "id"，当前为 "code"
+psql:/tmp/reg_pg14/seg_cases.sql:117: ERROR:  SQL审核[table_pk_type_serial]: 表 "se_t_pktype" 主键 "id" 建议使用序列(int/serial)类型
+psql:/tmp/reg_pg14/seg_cases.sql:122: ERROR:  SQL审核[table_column_not_null]: 表 "se_t_null" 的字段 "name" 必须显式设置为 NOT NULL
+psql:/tmp/reg_pg14/seg_cases.sql:127: ERROR:  SQL审核[table_no_foreign_key]: 表 "se_t_fk" 禁止使用外键，数据完整性应由代码层实现
+psql:/tmp/reg_pg14/seg_cases.sql:133: ERROR:  SQL审核[table_no_reserved_column]: 表 "se_t_resv" 存在预留性质的字段 "reserve1"，建议移除
+psql:/tmp/reg_pg14/seg_cases.sql:139: ERROR:  SQL审核[name_db_name]: 数据库名 "se_db_latin" 建议以应用系统缩写为前缀、环境类型为后缀
+psql:/tmp/reg_pg14/seg_cases.sql:140: ERROR:  SQL审核[name_db_name]: 数据库名 "se_db_utf8" 建议以应用系统缩写为前缀、环境类型为后缀
+psql:/tmp/reg_pg14/seg_cases.sql:146: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_comment_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:146: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_comment_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:147: NOTICE:  SQL审核[obj_comment]: 对象注释识别回显 (注释: 测试表注释)
+psql:/tmp/reg_pg14/seg_cases.sql:148: NOTICE:  SQL审核[obj_comment]: 对象注释识别回显 (注释: 主键注释)
+psql:/tmp/reg_pg14/seg_cases.sql:149: NOTICE:  SQL审核[obj_comment]: 对象注释识别回显 (注释: 名称注释)
+psql:/tmp/reg_pg14/seg_cases.sql:158: ERROR:  SQL审核[idx_concurrently]: 创建索引 "idx_noc" 必须使用 CONCURRENTLY，避免锁住写表操作
+psql:/tmp/reg_pg14/seg_cases.sql:164: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_manycols_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:164: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_manycols_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:165: ERROR:  SQL审核[idx_field_count]: 索引 "idx_many" 字段数 7 超过 5 个
+psql:/tmp/reg_pg14/seg_cases.sql:181: ERROR:  SQL审核[idx_table_count]: 表 "se_t_base" 索引数量 6 超过 5 个
+psql:/tmp/reg_pg14/seg_cases.sql:187: ERROR:  SQL审核[idx_method]: 索引 "idx_hash" 使用 hash 方法不支持多列，请选择 btree 或其他方法
+psql:/tmp/reg_pg14/seg_cases.sql:197: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_sel_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:197: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_sel_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:199: NOTICE:  SQL审核[cmd_analyze]: ANALYZE 统计信息采集应在业务低峰期进行 (目标表: se_t_sel)
+psql:/tmp/reg_pg14/seg_cases.sql:200: ERROR:  SQL审核[idx_selectivity]: 索引 "idx_sel" 的列 "flag" 选择性过低，不建议建立索引
+psql:/tmp/reg_pg14/seg_cases.sql:209: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_red_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:209: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_red_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:211: ERROR:  SQL审核[idx_redundant]: 索引 "idx_red2" 与表上已有索引列集重复，存在冗余索引
+psql:/tmp/reg_pg14/seg_cases.sql:223: ERROR:  SQL审核[view_select_star]: 视图 "vw_se_t_star" 禁止使用 select *，应显式写出所有字段
+psql:/tmp/reg_pg14/seg_cases.sql:228: ERROR:  SQL审核[view_order_by]: 视图 "vw_se_t_order" 中禁止使用 order by
+psql:/tmp/reg_pg14/seg_cases.sql:237: ERROR:  SQL审核[view_nested]: 视图 "vw_se_t_nest" 建议避免嵌套其他视图或复杂子查询
+psql:/tmp/reg_pg14/seg_cases.sql:247: ERROR:  SQL审核[dml_count_star]: 统计行数建议使用 count(*)
+psql:/tmp/reg_pg14/seg_cases.sql:254: ERROR:  SQL审核[dml_left_fuzzy]: 查询使用了左模糊匹配（LIKE 以 % 开头），建议避免
+psql:/tmp/reg_pg14/seg_cases.sql:260: NOTICE:  SQL审核[dml_batch_copy]: INSERT 语句一次写入 2 行数据，批量导入建议使用 COPY
+psql:/tmp/reg_pg14/seg_cases.sql:265: NOTICE:  SQL审核[dml_in_to_exists]: 查询使用了 IN (子查询)，建议改用 EXISTS 子句
+psql:/tmp/reg_pg14/seg_cases.sql:272: NOTICE:  SQL审核[dml_array_vs_tmp]: 临时表 "tmp_se_t_arr" 若用于中间数据计算，建议使用数组替代
+psql:/tmp/reg_pg14/seg_cases.sql:278: ERROR:  SQL审核[dml_no_where]: DELETE 语句缺少 WHERE 条件，清空表请使用 TRUNCATE
+psql:/tmp/reg_pg14/seg_cases.sql:279: ERROR:  SQL审核[dml_no_where]: UPDATE 语句缺少 WHERE 条件，将影响全部行
+psql:/tmp/reg_pg14/seg_cases.sql:294: ERROR:  SQL审核[dml_no_where]: DELETE 语句缺少 WHERE 条件，清空表请使用 TRUNCATE
+psql:/tmp/reg_pg14/seg_cases.sql:310: ERROR:  SQL审核[prog_ddl_forbidden]: 函数 "se_f_ddl" 函数体内不建议执行 DDL 语句
+psql:/tmp/reg_pg14/seg_cases.sql:316: ERROR:  SQL审核[prog_business_logic]: 函数 "se_f_logic" 函数体较长，不建议在数据库中存放复杂业务逻辑
+psql:/tmp/reg_pg14/seg_cases.sql:328: ERROR:  SQL审核[prog_close_cursor]: 函数 "se_f_cursor" 声明游标后请确保及时 CLOSE
+psql:/tmp/reg_pg14/seg_cases.sql:334: ERROR:  SQL审核[name_charset]: 函数名称 "SeFBadName" 只能由小写字母(a-z)、数字(0-9)、下划线(_)构成
+psql:/tmp/reg_pg14/seg_cases.sql:345: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 模式, 名称: se_x_schema)
+psql:/tmp/reg_pg14/seg_cases.sql:346: ERROR:  SQL审核[ddl_high_risk_drop]: 删除模式 "se_x_schema" 属于高危操作，请谨慎
+psql:/tmp/reg_pg14/seg_cases.sql:347: ERROR:  SQL审核[ddl_high_risk_drop]: 删除数据库 "se_x_nodb" 属于高危操作，请谨慎
+psql:/tmp/reg_pg14/seg_cases.sql:353: ERROR:  SQL审核[ddl_truncate_warn]: 生产环境中不建议使用 TRUNCATE 语句，目标表 = "se_t_dml"
+psql:/tmp/reg_pg14/seg_cases.sql:365: ERROR:  SQL审核[cmd_vacuum]: VACUUM 操作回显 (目标表: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:366: ERROR:  SQL审核[cmd_vacuum]: VACUUM FULL 获取排他锁并重写表, 生产环境需谨慎 (目标表: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:371: NOTICE:  SQL审核[cmd_analyze]: ANALYZE 统计信息采集应在业务低峰期进行 (目标表: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:376: NOTICE:  SQL审核[cmd_checkpoint]: 手动 CHECKPOINT 仅建议排障场景使用
+psql:/tmp/reg_pg14/seg_cases.sql:382: ERROR:  SQL审核[cmd_cluster]: CLUSTER 需排他锁并重写表, 生产需谨慎 (目标表: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:389: ERROR:  SQL审核[cmd_reindex]: REINDEX 建议使用 CONCURRENTLY 以避免长时间阻塞 (目标: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:390: ERROR:  SQL审核[cmd_reindex]: REINDEX 操作回显 (目标: se_t_base_pkey, 使用 CONCURRENTLY)
+psql:/tmp/reg_pg14/seg_cases.sql:397: ERROR:  SQL审核[obj_matview]: 物化视图需评估数据新鲜度与刷新策略 (物化视图: vw_se_mv)
+psql:/tmp/reg_pg14/seg_cases.sql:398: ERROR:  SQL审核[cmd_refresh_matview]: REFRESH MATERIALIZED VIEW 建议使用 CONCURRENTLY 以避免长时间阻塞 (目标: vw_se_mv)
+psql:/tmp/reg_pg14/seg_cases.sql:404: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:405: ERROR:  SQL审核[cmd_lock]: LOCK TABLE 需注意锁模式与持锁时长 (表: se_t_base, 模式: 1, nowait: false)
+psql:/tmp/reg_pg14/seg_cases.sql:406: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:412: ERROR:  SQL审核[cmd_load]: LOAD 加载共享库属安全敏感操作 (文件: plpgsql)
+psql:/tmp/reg_pg14/seg_cases.sql:417: NOTICE:  SQL审核[cmd_discard]: DISCARD ALL 将重置会话状态 (临时表/准备语句/通知监听等)
+psql:/tmp/reg_pg14/seg_cases.sql:423: NOTICE:  SQL审核[cmd_explain]: EXPLAIN ANALYZE 将真实执行被分析语句, 生产大查询需谨慎
+psql:/tmp/reg_pg14/seg_cases.sql:424: NOTICE:  SQL审核[cmd_explain]: EXPLAIN 语句识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:430: ERROR:  SQL审核[cmd_copy]: COPY TO 批量导出需确认敏感数据范围 (表: se_t_base, 去向: /tmp/se_t_copy.csv)
+psql:/tmp/reg_pg14/seg_cases.sql:435: NOTICE:  SQL审核[cmd_prepare]: PREPARE 预编译语句识别回显 (名称: se_f_stmt)
+psql:/tmp/reg_pg14/seg_cases.sql:443: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:444: ERROR:  SQL审核[cmd_cursor]: 游标使用后必须 CLOSE, 避免长事务持有 (游标: se_c_cur)
+psql:/tmp/reg_pg14/seg_cases.sql:446: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:452: ERROR:  SQL审核[cmd_notify]: NOTIFY 通知通道需评估性能开销与使用范围 (通道: se_x_channel)
+psql:/tmp/reg_pg14/seg_cases.sql:464: ERROR:  SQL审核[obj_policy]: 行级安全策略变更需评估对既有访问路径的影响 (策略: se_x_policy, 表: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:470: ERROR:  SQL审核[obj_publication]: 发布变更影响逻辑复制链路 (发布: se_x_pub)
+psql:/tmp/reg_pg14/seg_cases.sql:476: ERROR:  SQL审核[obj_subscription]: 订阅变更影响逻辑复制链路 (订阅: se_x_sub)
+psql:/tmp/reg_pg14/seg_cases.sql:482: ERROR:  SQL审核[obj_fdw]: 外部数据对象涉及跨系统访问与凭据配置 (对象: se_x_fdw)
+psql:/tmp/reg_pg14/seg_cases.sql:489: ERROR:  SQL审核[obj_extension]: 扩展需评估来源/版本与影响面 (扩展: se_x_nonexistent_ext)
+psql:/tmp/reg_pg14/seg_cases.sql:499: ERROR:  SQL审核[obj_language]: 过程语言(尤其非受信语言)需评估执行风险 (语言: se_x_lang)
+psql:/tmp/reg_pg14/seg_cases.sql:505: ERROR:  SQL审核[obj_advanced]: STATISTICS 定义/变更需由资深 DBA 实施 (对象: se_x_stats)
+psql:/tmp/reg_pg14/seg_cases.sql:506: ERROR:  SQL审核[obj_advanced]: STATISTICS 定义/变更需由资深 DBA 实施 (对象: se_x_stats)
+psql:/tmp/reg_pg14/seg_cases.sql:513: ERROR:  SQL审核[obj_alter_system]: ALTER SYSTEM 修改服务器级配置影响全局 (参数: work_mem, 值: 16MB)
+psql:/tmp/reg_pg14/seg_cases.sql:514: ERROR:  SQL审核[obj_alter_system]: ALTER SYSTEM 修改服务器级配置影响全局 (参数: work_mem, 值: ?)
+psql:/tmp/reg_pg14/seg_cases.sql:520: ERROR:  SQL审核[obj_reassign_owned]: 对象所有权批量转移需评估影响 (源角色: postgres, 目标角色: postgres)
+psql:/tmp/reg_pg14/seg_cases.sql:526: ERROR:  SQL审核[obj_ctas]: 评估是否确需创建实体表(CTAS/SELECT INTO) (新表: se_t_ctas)
+psql:/tmp/reg_pg14/seg_cases.sql:532: ERROR:  SQL审核[obj_matview]: 物化视图需评估数据新鲜度与刷新策略 (物化视图: vw_se_mv2)
+psql:/tmp/reg_pg14/seg_cases.sql:538: NOTICE:  SQL审核[obj_security_label]: SECURITY LABEL 识别回显 (提供方: se_x_provider, 对象: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:549: ERROR:  SQL审核[dcl_set_role]: 会话身份切换需确认权限边界 (SET ROLE 目标角色: postgres)
+psql:/tmp/reg_pg14/seg_cases.sql:550: ERROR:  SQL审核[dcl_set_role]: 会话身份切换需确认权限边界 (SET ROLE 目标角色: none)
+psql:/tmp/reg_pg14/seg_cases.sql:551: NOTICE:  SQL审核[cmd_set]: 会话参数设置(SET)识别回显 (参数: work_mem)
+psql:/tmp/reg_pg14/seg_cases.sql:557: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:558: NOTICE:  SQL审核[tcl_set_transaction]: SET TRANSACTION 事务特征识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:559: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:560: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:561: NOTICE:  SQL审核[tcl_set_transaction]: SET CONSTRAINTS 约束检查时机识别回显 (deferred: true)
+psql:/tmp/reg_pg14/seg_cases.sql:562: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:583: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_t_dup_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:583: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_t_dup_id_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:584: ERROR:  SQL审核[obj_exists_check]: 对象已存在, 请使用 IF NOT EXISTS 或删除旧对象 (表: se_t_dup)
+psql:/tmp/reg_pg14/seg_cases.sql:585: ERROR:  SQL审核[obj_exists_check]: 对象已存在, IF NOT EXISTS 生效, 跳过创建 (表: se_t_dup)
+psql:/tmp/reg_pg14/seg_cases.sql:591: NOTICE:  SQL审核[echo]: 未映射命令识别: ALTER DATABASE
+psql:/tmp/reg_pg14/seg_cases.sql:592: NOTICE:  SQL审核[echo]: 未映射命令识别: ALTER DATABASE
+psql:/tmp/reg_pg14/seg_cases.sql:614: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:615: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:619: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:620: NOTICE:  SQL审核[tcl_rollback]: 显式事务回滚(ROLLBACK)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:625: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:626: NOTICE:  SQL审核[tcl_savepoint]: 保存点操作(SAVEPOINT)识别回显 (保存点: se_sp1
+psql:/tmp/reg_pg14/seg_cases.sql:627: NOTICE:  SQL审核[tcl_savepoint]: 保存点操作(ROLLBACK TO SAVEPOINT)识别回显 (保存点: se_sp1
+psql:/tmp/reg_pg14/seg_cases.sql:628: NOTICE:  SQL审核[tcl_savepoint]: 保存点操作(RELEASE SAVEPOINT)识别回显 (保存点: se_sp1
+psql:/tmp/reg_pg14/seg_cases.sql:629: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:635: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:636: ERROR:  SQL审核[tcl_prepared]: 两阶段事务(PREPARE TRANSACTION)需评估分布式一致性
+psql:/tmp/reg_pg14/seg_cases.sql:637: NOTICE:  SQL审核[tcl_rollback]: 显式事务回滚(ROLLBACK)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:645: NOTICE:  SQL审核[cmd_set]: 会话参数设置(SET)识别回显 (参数: search_path)
+psql:/tmp/reg_pg14/seg_cases.sql:646: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:647: NOTICE:  SQL审核[cmd_set]: 会话参数设置(SET)识别回显 (参数: search_path)
+psql:/tmp/reg_pg14/seg_cases.sql:648: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:649: NOTICE:  SQL审核[cmd_set]: 会话参数设置(RESET)识别回显 (参数: search_path)
+psql:/tmp/reg_pg14/seg_cases.sql:653: NOTICE:  SQL审核[cmd_show]: 会话参数查询(SHOW)识别回显 (参数: search_path)
+psql:/tmp/reg_pg14/seg_cases.sql:659: NOTICE:  SQL审核[cmd_do]: 匿名块执行(DO)识别回显
+psql:/tmp/reg_pg14/seg_cases.sql:665: NOTICE:  SQL审核[cmd_call]: 存储过程调用(CALL)识别回显 (过程: se_p_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:666: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_cases.sql:674: ERROR:  SQL审核[dcl_grant]: 对象权限授予/回收需确认权限边界 (授予对象: se_t_base, 目标角色: postgres)
+psql:/tmp/reg_pg14/seg_cases.sql:675: ERROR:  SQL审核[dcl_grant]: 对象权限授予/回收需确认权限边界 (回收对象: se_t_base, 目标角色: postgres)
+psql:/tmp/reg_pg14/seg_cases.sql:679: ERROR:  SQL审核[dcl_grant_role]: 角色成员授予/回收需确认角色边界 (授予角色: pg_signal_backend, 目标成员: postgres)
+psql:/tmp/reg_pg14/seg_cases.sql:680: ERROR:  SQL审核[dcl_grant_role]: 角色成员授予/回收需确认角色边界 (回收角色: pg_signal_backend, 目标成员: postgres)
+psql:/tmp/reg_pg14/seg_cases.sql:684: ERROR:  SQL审核[dcl_default_privileges]: 默认权限变更影响后续创建对象
+psql:/tmp/reg_pg14/seg_cases.sql:688: ERROR:  SQL审核[dcl_role]: 角色创建需评估权限与归属 (角色: se_r_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:689: ERROR:  SQL审核[dcl_role]: 角色配置修改需评估权限与归属 (角色: se_r_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:690: ERROR:  SQL审核[dcl_role]: 角色删除需评估权限与归属 (角色: se_r_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:696: NOTICE:  SQL审核[obj_comment]: 对象注释识别回显 (注释: se p15 comment)
+psql:/tmp/reg_pg14/seg_cases.sql:697: NOTICE:  SQL审核[obj_comment]: 对象注释识别回显 (注释: se p15 pk comment)
+psql:/tmp/reg_pg14/seg_cases.sql:698: NOTICE:  SQL审核[obj_comment]: 对象注释识别回显 (注释: se p15 func comment)
+psql:/tmp/reg_pg14/seg_cases.sql:703: NOTICE:  SQL审核[obj_rename_owner]: 对象重命名识别回显 (旧名称: se_t_base, 新名称: se_t_base_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:704: NOTICE:  SQL审核[obj_rename_owner]: 对象重命名识别回显 (旧名称: se_t_base_p15, 新名称: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:705: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 表, 名称: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:706: NOTICE:  SQL审核[obj_rename_owner]: 对象模式迁移识别回显 (对象: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:711: NOTICE:  SQL审核[obj_drop_owned]: DROP OWNED 批量回收对象需评估影响范围 (角色: se_r_p15_nonexist)
+psql:/tmp/reg_pg14/seg_cases.sql:723: ERROR:  SQL审核[prog_trigger]: 触发器创建需评估执行时机与开销 (触发器: trg_se_p15, 目标表: se_t_base, 时机: BEFORE, 事件: INSERT)
+psql:/tmp/reg_pg14/seg_cases.sql:724: ERROR:  SQL审核[prog_trigger]: 触发器重命名需评估执行时机与开销 (旧名称: se_t_base, 新名称: trg_se_p15b)
+psql:/tmp/reg_pg14/seg_cases.sql:725: ERROR:  SQL审核[prog_trigger]: 触发器启用/禁用需评估执行时机与开销 (表: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:726: ERROR:  SQL审核[prog_trigger]: 触发器删除需评估执行时机与开销 (触发器: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:731: ERROR:  SQL审核[prog_event_trigger]: 事件触发器创建影响全局事件处理 (触发器: evt_se_p15, 事件: ddl_command_start)
+psql:/tmp/reg_pg14/seg_cases.sql:732: ERROR:  SQL审核[prog_event_trigger]: 事件触发器删除影响全局事件处理 (触发器: evt_se_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:738: ERROR:  SQL审核[prog_rule]: 重写规则创建需评估查询重写影响 (规则: rl_se_p15, 目标表: se_t_base, 事件: INSERT)
+psql:/tmp/reg_pg14/seg_cases.sql:739: ERROR:  SQL审核[prog_rule]: 重写规则重命名需评估查询重写影响 (旧名称: se_t_base, 新名称: rl_se_p15b)
+psql:/tmp/reg_pg14/seg_cases.sql:740: ERROR:  SQL审核[prog_rule]: 重写规则删除需评估查询重写影响 (规则: se_t_base)
+psql:/tmp/reg_pg14/seg_cases.sql:746: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 模式, 名称: se_x_p15)
+psql:/tmp/reg_pg14/seg_cases.sql:747: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_x_p15_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:748: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 域, 名称: se_x_p15_dom)
+psql:/tmp/reg_pg14/seg_cases.sql:752: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 序列, 名称: se_x_p15_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:753: NOTICE:  SQL审核[ddl_alter_object]: 对象结构变更回显 (对象类型: 域, 名称: se_x_p15_dom)
+psql:/tmp/reg_pg14/seg_cases.sql:764: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 序列, 名称: se_x_p15_seq)
+psql:/tmp/reg_pg14/seg_cases.sql:765: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 域, 名称: ?)
+psql:/tmp/reg_pg14/seg_cases.sql:766: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_cases.sql:767: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:10: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_base)
+psql:/tmp/reg_pg14/seg_p14.sql:11: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_dml)
+psql:/tmp/reg_pg14/seg_p14.sql:12: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_manycols)
+psql:/tmp/reg_pg14/seg_p14.sql:13: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_red)
+psql:/tmp/reg_pg14/seg_p14.sql:14: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_sel)
+psql:/tmp/reg_pg14/seg_p14.sql:15: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_pkbad)
+psql:/tmp/reg_pg14/seg_p14.sql:16: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ukbad)
+psql:/tmp/reg_pg14/seg_p14.sql:17: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ckbad)
+psql:/tmp/reg_pg14/seg_p14.sql:18: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_vc)
+psql:/tmp/reg_pg14/seg_p14.sql:19: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_num)
+psql:/tmp/reg_pg14/seg_p14.sql:20: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_dt)
+psql:/tmp/reg_pg14/seg_p14.sql:21: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_js)
+psql:/tmp/reg_pg14/seg_p14.sql:22: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ms)
+psql:/tmp/reg_pg14/seg_p14.sql:23: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_nopk)
+psql:/tmp/reg_pg14/seg_p14.sql:24: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_pkname)
+psql:/tmp/reg_pg14/seg_p14.sql:25: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_pktype)
+psql:/tmp/reg_pg14/seg_p14.sql:26: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_null)
+psql:/tmp/reg_pg14/seg_p14.sql:27: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_fk)
+psql:/tmp/reg_pg14/seg_p14.sql:28: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_resv)
+psql:/tmp/reg_pg14/seg_p14.sql:29: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_comment)
+psql:/tmp/reg_pg14/seg_p14.sql:30: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_dup)
+psql:/tmp/reg_pg14/seg_p14.sql:31: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_ctas)
+psql:/tmp/reg_pg14/seg_p14.sql:32: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_txndrop)
+psql:/tmp/reg_pg14/seg_p14.sql:33: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: bak_se_t_base)
+psql:/tmp/reg_pg14/seg_p14.sql:34: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_tmpbad)
+psql:/tmp/reg_pg14/seg_p14.sql:35: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: tmp_se_t_arr)
+psql:/tmp/reg_pg14/seg_p14.sql:36: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: SeTUpper)
+psql:/tmp/reg_pg14/seg_p14.sql:37: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: 1st_table)
+psql:/tmp/reg_pg14/seg_p14.sql:38: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: select)
+psql:/tmp/reg_pg14/seg_p14.sql:39: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_len_abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_)
+psql:/tmp/reg_pg14/seg_p14.sql:40: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_base)
+psql:/tmp/reg_pg14/seg_p14.sql:41: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_star)
+psql:/tmp/reg_pg14/seg_p14.sql:42: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_order)
+psql:/tmp/reg_pg14/seg_p14.sql:43: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_sub)
+psql:/tmp/reg_pg14/seg_p14.sql:44: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: vw_se_t_nest)
+psql:/tmp/reg_pg14/seg_p14.sql:45: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 视图, 名称: se_v_bad)
+psql:/tmp/reg_pg14/seg_p14.sql:46: ERROR:  SQL审核[obj_matview]: 物化视图需评估数据新鲜度与刷新策略 (物化视图: vw_se_mv)
+psql:/tmp/reg_pg14/seg_p14.sql:47: ERROR:  SQL审核[obj_matview]: 物化视图需评估数据新鲜度与刷新策略 (物化视图: vw_se_mv2)
+psql:/tmp/reg_pg14/seg_p14.sql:48: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_se_base)
+psql:/tmp/reg_pg14/seg_p14.sql:49: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_noc)
+psql:/tmp/reg_pg14/seg_p14.sql:50: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_hash)
+psql:/tmp/reg_pg14/seg_p14.sql:51: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_many)
+psql:/tmp/reg_pg14/seg_p14.sql:52: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc1)
+psql:/tmp/reg_pg14/seg_p14.sql:53: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc2)
+psql:/tmp/reg_pg14/seg_p14.sql:54: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc3)
+psql:/tmp/reg_pg14/seg_p14.sql:55: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc4)
+psql:/tmp/reg_pg14/seg_p14.sql:56: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_tc5)
+psql:/tmp/reg_pg14/seg_p14.sql:57: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_sel)
+psql:/tmp/reg_pg14/seg_p14.sql:58: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_red1)
+psql:/tmp/reg_pg14/seg_p14.sql:59: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: idx_red2)
+psql:/tmp/reg_pg14/seg_p14.sql:60: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 索引, 名称: se_i_bad)
+psql:/tmp/reg_pg14/seg_p14.sql:61: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:62: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:63: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:64: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:65: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:66: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 模式, 名称: se_x_schema)
+psql:/tmp/reg_pg14/seg_p14.sql:71: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: se_x_stats)
+psql:/tmp/reg_pg14/seg_p14.sql:75: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 模式, 名称: se_x_p15)
+psql:/tmp/reg_pg14/seg_p14.sql:76: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 序列, 名称: se_x_p15_seq)
+psql:/tmp/reg_pg14/seg_p14.sql:77: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 域, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:79: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:80: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:81: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 对象, 名称: ?)
+psql:/tmp/reg_pg14/seg_p14.sql:98: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_p14.sql:99: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_txnone)
+psql:/tmp/reg_pg14/seg_p14.sql:100: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_p14.sql:101: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_p14.sql:102: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 序列, 名称: se_x_txseq)
+psql:/tmp/reg_pg14/seg_p14.sql:103: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_p14.sql:108: NOTICE:  SQL审核[tcl_begin]: 显式事务开启(BEGIN/START TRANSACTION)识别回显
+psql:/tmp/reg_pg14/seg_p14.sql:109: NOTICE:  SQL审核[ddl_drop_object]: 对象删除回显 (对象类型: 表, 名称: se_t_txndrop)
+psql:/tmp/reg_pg14/seg_p14.sql:110: NOTICE:  SQL审核[ddl_create_object]: 对象创建回显 (对象类型: 序列, 名称: se_x_txseq2)
+psql:/tmp/reg_pg14/seg_p14.sql:111: NOTICE:  SQL审核[tcl_commit]: 显式事务提交(COMMIT)识别回显
+psql:/tmp/reg_pg14/seg_p14.sql:111: ERROR:  SQL审核[tcl_multi_ddl_in_txn]: 显式事务中执行了 2 条 DDL，禁止在事务中执行多条 DDL

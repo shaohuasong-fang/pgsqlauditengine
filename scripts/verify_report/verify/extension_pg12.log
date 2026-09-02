@@ -1,0 +1,2 @@
+ERROR:  SQL审核[obj_exists_check]: 对象已存在, IF NOT EXISTS 生效, 跳过创建 (扩展: pgsqlauditengine)
+DETAIL:  SQL审核级别: WARNING（语句被拦截）

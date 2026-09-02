@@ -1,0 +1,20 @@
+[23:04:24] ===== PG12 回归编排开始（端口 54312 / API 8912）=====
+[23:04:24] 配置快照已保存: /tmp/reg_pg12/config_snapshot.json
+[23:04:24] test.sql 已切分: seg_p0/seg_cases/seg_p14（/tmp/reg_pg12）
+[23:04:24]   临时关闭 ddl_high_risk_drop
+[23:04:24]   临时关闭 obj_publication
+[23:04:24]   临时关闭 obj_subscription
+[23:04:24]   临时关闭 obj_fdw
+[23:04:24]   临时关闭 obj_language
+[23:04:24] --- 执行前置清理段（PART 0）---
+[23:04:24] 配置快照还原完成（102 条规则）
+[23:04:24] --- 执行用例段（PART 1~13/15，WARNING 拦截验证）---
+[23:04:24]   临时关闭 ddl_high_risk_drop
+[23:04:24]   临时关闭 obj_publication
+[23:04:24]   临时关闭 obj_subscription
+[23:04:24]   临时关闭 obj_fdw
+[23:04:24]   临时关闭 obj_language
+[23:04:24] --- 执行后置清理段（PART 14 + PART 9）---
+[23:04:25] 配置快照还原完成（102 条规则）
+[23:04:25] ===== PG12 回归编排完成，日志: /tmp/reg_pg12.log =====
+rules 快照 http_code=200 size=15405
