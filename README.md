@@ -175,7 +175,7 @@ curl -s -H 'Authorization: Bearer test-token-123' http://127.0.0.1:8918/api/v1/c
 
 
 
-## 8. 目录结构
+## 6. 目录结构
 
 ```
 PostgreSQLClass/
@@ -191,6 +191,6 @@ PostgreSQLClass/
 ```
 
 
-## 10. 参考资料
+## 7. 参考资料
 
 - PostgreSQL 官方命令参考：https://www.postgresql.org/docs/current/sql-commands.html
