@@ -17,7 +17,7 @@ pgsqlauditengine 是一个 PostgreSQL 扩展（Extension），在数据库内核
 
 ## 2. 核心特性
 
-- **102 条审核规则**：既有 80 条（命名/类型/表结构/索引/视图/DML/对象/命令等 14 族）+ 阶段二新增 22 条（事务识别回显、权限、对象回显等），元数据与 `g_rule_defs[]`（`rule_registry.c`）逐条一致。
+
 - **三档级别语义**（PG11-18 全版本生效）：
 
   | 规范级别 | 输出级别 | 行为 |
@@ -26,11 +26,7 @@ pgsqlauditengine 是一个 PostgreSQL 扩展（Extension），在数据库内核
   | 建议 | WARNING | **拦截**：语句不执行（输出级别前缀为 ERROR 并带 `SQL审核级别: WARNING（语句被拦截）` errdetail 标识） |
   | 推荐 | NOTICE | **放行**：语句正常执行 |
 
-  实核级别分布：**ERROR 32 / WARNING 45 / NOTICE 25**（与 `pgauditrule.md` 一致）。
-- **5 个 GUC 配置**（`PGSAUDAUDITENGINE.*`，见 §4.3）。
-- **7 个 RESTful 管理端点**（健康检查/规则列表/规则详情/规则修改/规则复位/审计日志/运行期配置，Bearer 鉴权，见 §5.2）。
-- **PG11-18 跨版本支持**：同一份源码经 PGXS 逐版本编译，一次部署全版本可用（端口矩阵见 §3）。
-- **审计记录环形缓冲**：共享内存环形缓冲（容量 4096 条）保存违规记录，经 `GET /api/v1/audit-logs` 导出。
+
 
 ## 3. 版本支持矩阵
 

@@ -16,7 +16,6 @@ pgsqlauditengine is a PostgreSQL extension that performs static SQL auditing bef
 
 ## 2. Core Features
 
-- 102 audit rules: 80 existing rules (naming/type/table structure/index/view/DML/object/command rules grouped into 14 families) plus 22 newly added rules in phase two (transaction identification echo, permissions, object echo, etc.). Metadata is consistent with `g_rule_defs[]` in `rule_registry.c`.
 - Three-tier severity semantics (effective across all PG11-18 versions):
 
   | Rule Level | Output Level | Behavior |
@@ -25,11 +24,7 @@ pgsqlauditengine is a PostgreSQL extension that performs static SQL auditing bef
   | Recommended | WARNING | Blocked: statement does not execute (output level prefix is ERROR and includes the `SQL Audit Level: WARNING (statement blocked)` errdetail marker) |
   | Preferred | NOTICE | Allowed: statement executes normally |
 
-  Verified severity distribution: ERROR 32 / WARNING 45 / NOTICE 25 (consistent with `pgauditrule.md`).
-- 5 GUC settings (`PGSAUDAUDITENGINE.*`, see §4.3).
-- 7 RESTful management endpoints (health check / rules list / rule detail / rule modification / rule reset / audit logs / runtime config; Bearer authentication, see §5.2).
-- PG11-18 cross-version support: the same source code is compiled through PGXS for each version, allowing one deployment to work across all versions (port matrix in §3).
-- Circular audit buffer: shared-memory ring buffer (capacity 4096 entries) stores violation records and exports them via `GET /api/v1/audit-logs`.
+
 
 ## 3. Version Support Matrix
 
