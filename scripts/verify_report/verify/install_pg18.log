@@ -1,6 +1,0 @@
-/usr/bin/mkdir -p '/usr/local/pgversion/18/pgsql/lib'
-/usr/bin/mkdir -p '/usr/local/pgversion/18/pgsql/share/extension'
-/usr/bin/mkdir -p '/usr/local/pgversion/18/pgsql/share/extension'
-/usr/bin/install -c -m 755  pgsqlauditengine.so '/usr/local/pgversion/18/pgsql/lib/pgsqlauditengine.so'
-/usr/bin/install -c -m 644 .//pgsqlauditengine.control '/usr/local/pgversion/18/pgsql/share/extension/'
-/usr/bin/install -c -m 644 .//pgsqlauditengine--1.0.sql  '/usr/local/pgversion/18/pgsql/share/extension/'

@@ -1,4 +1,0 @@
-### 版本: 17.9  (pg_config: /usr/local/pgsql/bin/pg_config)
-时间: 2026-08-30 06:00:09
----
-RESULT: FAIL (PGXS 不可用: /usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk)
