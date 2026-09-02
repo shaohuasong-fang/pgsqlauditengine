@@ -1,5 +1,7 @@
 # pgsqlauditengine
 
+[中文](https://github.com/shaohuasong-fang/pgsqlauditengine/blob/main/README.md) | [英文](https://github.com/shaohuasong-fang/pgsqlauditengine/blob/main/README_EN.md)
+
 PostgreSQL SQL 审核扩展（SQL Audit Engine for PostgreSQL）：以**共享库 + Background Worker + 内嵌 RESTful API** 方式为 PostgreSQL 提供 DDL / DML / DCL / TCL / 命令类语句的静态审核能力，支持 ** PostgreSQL 11 ~ 18 版本。
 
 pgsqlauditengine 通过挂载 `ProcessUtility_hook` 与 `post_parse_analyze_hook`，在语句执行前完成审核判定，并按规则级别执行 **NOTICE 放行 / WARNING 拦截 / ERROR 拦截** 语义；审核过程不修改任何语句、不依赖外部服务，规则开关与级别可通过内嵌 RESTful 管理服务实时调整。
