@@ -167,7 +167,7 @@ curl -s -H 'Authorization: Bearer test-token-123' http://127.0.0.1:8918/api/v1/c
 | GET | `/api/v1/audit-logs` | Yes | Audit logs (circular buffer) |
 | GET | `/api/v1/config` | Yes | Full runtime configuration export |
 
-## 8. Directory Structure
+## 6. Directory Structure
 
 ```
 PostgreSQLClass/
@@ -182,6 +182,6 @@ PostgreSQLClass/
 │   ├── Makefile / .control
 ```
 
-## 10. References
+## 7. References
 
 - PostgreSQL official command reference: https://www.postgresql.org/docs/current/sql-commands.html
