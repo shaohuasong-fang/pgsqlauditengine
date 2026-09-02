@@ -1,5 +1,7 @@
 # pgsqlauditengine
 
+[中文](https://github.com/shaohuasong-fang/pgsqlauditengine/blob/main/README.md) | [英文](https://github.com/shaohuasong-fang/pgsqlauditengine/blob/main/README_EN.md)
+
 PostgreSQL SQL Audit Extension (SQL Audit Engine for PostgreSQL): provides static auditing for DDL / DML / DCL / TCL / command-type statements in PostgreSQL through a combination of a shared library, a Background Worker, and an embedded RESTful API. It supports PostgreSQL versions 11 through 18.
 
 pgsqlauditengine mounts `ProcessUtility_hook` and `post_parse_analyze_hook` to evaluate statements before execution. Based on rule severity, it enforces the semantics of NOTICE allow / WARNING block / ERROR block. The audit process does not modify any statement and does not depend on external services. Rule switches and levels can be adjusted in real time through the embedded RESTful management service.
