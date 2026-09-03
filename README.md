@@ -61,7 +61,7 @@ pgsqlauditengine 是一个 PostgreSQL 扩展（Extension），在数据库内核
 ```bash
 cd postgresql-${version}/contrib/
 git clone https://github.com/shaohuasong-fang/pgsqlauditengine.git
-
+cd pgsqlauditengine
 # 单版本编译安装（PG18）
 rm -f *.o *.so                              # PGXS 不跟踪 .h 依赖，修改 compat.h 后必须全量重编
 make -j$(nproc) USE_PGXS=1 PG_CONFIG=/usr/local/pgversion/18/pgsql/bin/pg_config
