@@ -56,7 +56,7 @@ pgsqlauditengine is a PostgreSQL extension that performs static SQL auditing bef
 ```bash
 cd postgresql-${version}/contrib/
 git clone https://github.com/shaohuasong-fang/pgsqlauditengine.git
-
+cd pgsqlauditengine
 # Single-version build and install (PG18)
 rm -f *.o *.so                              # PGXS does not track .h dependencies; after changing compat.h, a full rebuild is required
 make -j$(nproc) USE_PGXS=1 PG_CONFIG=/usr/local/pgversion/18/pgsql/bin/pg_config
